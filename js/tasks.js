@@ -21,14 +21,15 @@ $('#nat_theme').click(
 );
 
 // Animate Header
-$('#fade_out').click(
-    function() {
-        $("header").fadeTo("slow", 0.50);
-    }
-)
 
-$('#fade_in').click(
-    function() {
-        $("header").fadeTo("slow", 1);
+
+$("#fade").click(function() {
+    if ($('header').hasClass("full")) {
+        $('header').fadeTo("slow", .5);
+        $('header').removeClass("full");
+    } else {
+        $('header').addClass("full");
+        $('header').fadeTo("slow", 1);
+
     }
-)
+});
