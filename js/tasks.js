@@ -1,7 +1,3 @@
-$('li').click(function() {
-    $(this).fadeOut('slow');
-})
-
 // Choose new color scheme
 $('#sky_theme').click(
     function() {
