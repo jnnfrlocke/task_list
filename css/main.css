@@ -35,3 +35,35 @@ button {
     width: 200px;
     margin-bottom: 10px;
 }
+
+
+/*Sky Theme*/
+
+#sky_theme h1,
+li {
+    color: #363732;
+}
+
+#sky_theme ul {
+    background: #53d8fb;
+}
+
+#sky_theme header {
+    background: #dce1e9;
+}
+
+
+/*Natural Theme*/
+
+#nat_theme h1,
+li {
+    color: #6A7162;
+}
+
+#nat_theme ul {
+    background: #CBE9D2;
+}
+
+#nat_theme header {
+    background: ##E2DAD0;
+}

@@ -48,8 +48,8 @@ $('#text_down').click(function() {
 // Enter New Task
 
 $('#new_task').click(function() {
-    var newTask = prompt("Please Add the new task");
-    if (newTask != null) {
-        $('ul').append('<li>' + newTask + '</li>');
+    var newTask = prompt("Please Add the new task"); {
+        if ($('#sky_theme').hasClass("full"))
+            $('ul').append('<li>' + newTask + '</li>');
     }
 });
