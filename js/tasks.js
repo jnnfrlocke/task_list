@@ -9,6 +9,8 @@ $('#sky_theme').click(
         $('li').css('color', '#363732');
         $('ul').css('background', '#53D8FB');
         $('header').css('background', '#DCE1E9');
+        // Show message to user that they switched theme
+        alert("You have switched to the Sky theme!");
     });
 
 $('#nat_theme').click(
@@ -17,12 +19,13 @@ $('#nat_theme').click(
         $('li').css('color', '#6A7162');
         $('ul').css('background', '#CBE9D2');
         $('header').css('background', '#E2DAD0');
+        // Show message to user that they switched theme
+        alert("You have switched to the Natural theme!")
     }
 );
 
+
 // Animate Header
-
-
 $("#fade").click(function() {
     if ($('header').hasClass("full")) {
         $('header').fadeTo("slow", .5);
