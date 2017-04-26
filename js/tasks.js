@@ -1,22 +1,37 @@
 // Choose new color scheme
-$('#sky_theme').click(
-    function() {
-        $('h1, li').css('color', '#363732');
-        $('ul').css('background', '#53D8FB');
-        $('header').css('background', '#DCE1E9');
-        // Show message to user that they switched theme
-        alert("You have switched to the Sky theme!");
-    });
+// $('#sky_theme').click(
+//     function() {
+//         if ($('section').hasClass("sky_theme")) {
+//             // Show message to user that they switched theme
+//             alert("You have switched to the Sky theme!");
+//         } else {
+//             $('section').css(".skytheme");
+//             $('section').addClass("sky_theme");
+//         }
+//     });
 
-$('#nat_theme').click(
-    function() {
-        $('h1, li').css('color', '#6A7162');
-        $('ul').css('background', '#CBE9D2');
-        $('header').css('background', '#E2DAD0');
-        // Show message to user that they switched theme
-        alert("You have switched to the Natural theme!")
+
+// $('#nat_theme').click(function() {
+//     if ($('section').hasClass("sky_theme")) {
+//         $('section').removeClass('sky_theme');
+//         $('section').addClass("nat_theme");
+
+//         // Show message to user that they switched theme
+//         alert("You have switched to the Natural theme!");
+
+//         // $('section').css("class", "nat_theme");
+
+//     }
+// });
+
+$('button').click(function() {
+    var thisButton = $(this);
+    // alert(thisButton.attr('id'));
+    if (thisButton.attr('id') == "sky_theme" || thisButton.attr('id') == "nat_theme") {
+        $('section').removeClass('sky_theme nat_theme');
+        $('section').addClass(thisButton.attr('id'));
     }
-);
+})
 
 
 // Animate Header
@@ -49,7 +64,7 @@ $('#text_down').click(function() {
 
 $('#new_task').click(function() {
     var newTask = prompt("Please Add the new task"); {
-        if ($('#sky_theme').hasClass("full"))
-            $('ul').append('<li>' + newTask + '</li>');
+        // if ($('#sky_theme').hasClass("full"))
+        $('ul').append('<li>' + newTask + '</li>');
     }
 });

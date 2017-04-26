@@ -1,12 +1,12 @@
 h1 {
     text-align: center;
-    color: #6A7162;
+    /*color: #6A7162;*/
     line-height: 1.5em;
     padding: 15px;
 }
 
 ul {
-    background: #CBE9D2;
+    /*background: #CBE9D2;*/
     margin: 0;
     list-style: none;
     padding: 20px;
@@ -14,11 +14,11 @@ ul {
 
 li {
     margin: 20px;
-    color: #6A7162;
+    /*color: #6A7162;*/
 }
 
 header {
-    background: #E2DAD0;
+    /*background: #E2DAD0;*/
     margin: 0;
 }
 
@@ -39,31 +39,31 @@ button {
 
 /*Sky Theme*/
 
-#sky_theme h1,
-li {
+.sky_theme h1,
+.sky_theme li {
     color: #363732;
 }
 
-#sky_theme ul {
+.sky_theme ul {
     background: #53d8fb;
 }
 
-#sky_theme header {
+.sky_theme header {
     background: #dce1e9;
 }
 
 
 /*Natural Theme*/
 
-#nat_theme h1,
-li {
+.nat_theme h1,
+.nat_theme li {
     color: #6A7162;
 }
 
-#nat_theme ul {
+.nat_theme ul {
     background: #CBE9D2;
 }
 
-#nat_theme header {
-    background: ##E2DAD0;
+.nat_theme header {
+    background: #E2DAD0;
 }
