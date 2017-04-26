@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: #6A7162;
+    line-height: 1.5em;
+    padding: 15px;
+}
+
+ul {
+    background: #CBE9D2;
+    margin: 0;
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    margin: 20px;
+    color: #6A7162;
+}
+
+header {
+    background: #E2DAD0;
+    margin: 0;
+}
+
+#task_list {
+    width: 80%;
+    margin: auto;
+}
