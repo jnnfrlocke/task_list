@@ -53,10 +53,3 @@ $('#new_task').click(function() {
         $('ul').append('<li>' + newTask + '</li>');
     }
 });
-
-
-// $('#new_task').click(function() {
-//     $jPrompt('Type something:', 'Prefilled value', 'Prompt Dialog', function(r) {
-//         if (r) jAlert('You entered: ' + r, 'Result');
-//     });
-// })
