@@ -36,3 +36,17 @@ $("#fade").click(function() {
 
     }
 });
+
+// Increase and Decrease Font
+
+$('#text_up').click(function() {
+    $('h1, button, li').css('font-size', function() {
+        return parseInt($(this).css('font-size')) + 5 + 'px';
+    });
+});
+
+$('#text_down').click(function() {
+    $('h1, button, li').css('font-size', function() {
+        return parseInt($(this).css('font-size')) - 5 + 'px';
+    });
+});
