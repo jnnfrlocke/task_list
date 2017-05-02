@@ -24,6 +24,8 @@
 //     }
 // });
 
+var Shopping = ["Apples", "Hazelnut Milk", "Cherries", "Bananas", "Bread", "Peanut Butter", "Blackberry Jelly", "Frozen Pineapple", "Frozen Strawberries", "Protein Powder", "Spinach", "Cereal", "Waffles", "Ground Beef", "Tortillas"]
+
 $('button').click(function() {
     var thisButton = $(this);
     // alert(thisButton.attr('id'));
