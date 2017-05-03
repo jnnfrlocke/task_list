@@ -41,6 +41,10 @@ button {
     margin-bottom: 10px;
 }
 
+div {
+    padding: 30px;
+}
+
 
 /*Sky Theme*/
 
@@ -49,7 +53,7 @@ button {
     color: #363732;
 }
 
-.sky_theme ul {
+.sky_theme div {
     background: #53d8fb;
 }
 
