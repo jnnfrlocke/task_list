@@ -1,6 +1,6 @@
-# Task List
+# Grocery List
 
-This is a simple task list. I am working on building in more functionality.
+This is a simple grocery list. I am working on building in more functionality.
 
 ### Prerequisites
 
@@ -13,6 +13,8 @@ This website will work best when displayed on a desktop computer in a modern HTM
 * [JQuery](https://jquery.com/)
 * [GitHub](https://github.com/jnnfrlocke/task_list/) - Source Code Management
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE
+* [AWS](https://s3.us-east-2.amazonaws.com/cnramp-tasklist/index.html) - Hosting
+* [Trello](https://trello.com/b/JKMtis0M/grocery-list) - Agile Scrum Workflow Management
 
 ## Contributing
 
