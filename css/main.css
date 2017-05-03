@@ -5,6 +5,10 @@ h1 {
     padding: 15px;
 }
 
+p {
+    text-align: center;
+}
+
 ul {
     /*background: #CBE9D2;*/
     margin: 0;
